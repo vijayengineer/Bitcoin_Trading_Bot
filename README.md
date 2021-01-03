@@ -18,8 +18,8 @@ Procedure:
 --> Rerun the bot with the thresholds  
 
 Integration:
-Run the bot and collect csv file
-Edit the cell, and run the Jupyter notebook to get trading strategy
+Run the bot and collect csv file  
+Edit the cell, and run the Jupyter notebook to get trading strategy  
 
 As shown below for the 4 hour chunk between 02/01 and 03/01:
 Sell at RSI < 40, 13EMA crossover: the dots are small, and lighter hue
