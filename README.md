@@ -1,5 +1,5 @@
 # Bitcoin_Trading_Bot
-# Disclaimer: This is a trading bot to demonstrate using binance client,harnessing the power of jupyter notebooks, and visualizations to come up with strategies. It's not intended as investment advice. (FYI 25/12 to 02/01 this strategy was indeed profitable but use it as your own risk)
+### Disclaimer: This is a trading bot to demonstrate using binance client,harnessing the power of jupyter notebooks, and visualizations to come up with strategies. It's not intended as investment advice. (FYI 25/12 to 02/01 this strategy was indeed profitable but use it as your own risk)
 
 Bitcoin trading bot built for binance exchange
 
