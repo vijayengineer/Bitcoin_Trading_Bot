@@ -22,7 +22,7 @@ Run the bot and collect csv file
 Edit the cell, and run the Jupyter notebook to get trading strategy  
 
 As shown below for the 4 hour chunk between 02/01 and 03/01:
-Sell at RSI < 40, 13EMA crossover: the dots are small, and lighter hue
-Buy at RSI > 60, 13EMA crossover: the dots are big, and heavier hue
+When the dots are small, and has a lighter hue: Sell at RSI < 40, 13EMA crossover
+When the dots are big, and has a darker hue: Buy at RSI > 60, 13EMA crossover: the dots are big, and heavier hue
 
 ![](https://github.com/vijayengineer/Bitcoin_Trading_Bot/blob/main/assets/Screenshot%202021-01-03%20at%2015.42.01.png)
