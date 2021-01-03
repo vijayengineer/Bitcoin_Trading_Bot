@@ -9,12 +9,12 @@ Requirements:
 2. Signup for an account in binance and get the API, secret keys
 
 Procedure:
---> Query via klines the 1minute BTC USDT data from binance
---> Wait till the candle is closed before starting the RSI calculation
---> Use TAlib to estimate EMA 13 and 5 period
---> Get 4/8 hour chunks of data and pass them onto Jupyter notebook
---> Formulate the thresholds by looking at the chart (code not included)
---> Rerun the bot with the thresholds
+--> Query via klines the 1minute BTC USDT data from binance   
+--> Wait till the candle is closed before starting the RSI calculation  
+--> Use TAlib to estimate EMA 13 and 5 period  
+--> Get 4/8 hour chunks of data and pass them onto Jupyter notebook  
+--> Formulate the thresholds by looking at the chart (code not included)  
+--> Rerun the bot with the thresholds  
 
 As shown below for the 4 hour chunk between 02/01 and 03/01:
 Sell at RSI < 40, Buy at RSI > 60, crossover with 13EMA and 5EMA
