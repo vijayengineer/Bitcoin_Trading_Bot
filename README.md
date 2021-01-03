@@ -7,6 +7,7 @@ Using the trading indicators RSI and EMA5/13 average. The RSI thresholds are tra
 Requirements:
 1. Install Talib, Pandas and binance client
 2. Signup for an account in binance and get the API, secret keys
+3. Jupyter notebook either Anaconda or simply fire up on a browser
 
 Procedure:
 --> Query via klines the 1minute BTC USDT data from binance   
@@ -16,7 +17,12 @@ Procedure:
 --> Formulate the thresholds by looking at the chart (code not included)  
 --> Rerun the bot with the thresholds  
 
+Integration:
+Run the bot and collect csv file
+Edit the cell, and run the Jupyter notebook to get trading strategy
+
 As shown below for the 4 hour chunk between 02/01 and 03/01:
-Sell at RSI < 40, Buy at RSI > 60, crossover with 13EMA and 5EMA
+Sell at RSI < 40, 13EMA crossover: the dots are small, and lighter hue
+Buy at RSI > 60, 13EMA crossover: the dots are big, and heavier hue
 
 ![](https://github.com/vijayengineer/Bitcoin_Trading_Bot/blob/main/assets/Screenshot%202021-01-03%20at%2015.42.01.png)
