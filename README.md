@@ -13,7 +13,7 @@ Procedure:
 --> Query via klines the 1minute BTC USDT data from binance   
 --> Wait till the candle is closed before starting the RSI calculation  
 --> Use TAlib to estimate EMA 13 and 5 period  
---> Get 4/8 hour chunks of data and pass them onto Jupyter notebook  
+--> Get 4/8 hour chunks of data and pass them onto Jupyter notebook (stored in data folder)  
 --> Formulate the thresholds by looking at the chart (code not included)  
 --> Rerun the bot with the thresholds  
 
