@@ -1,5 +1,5 @@
 # Bitcoin_Trading_Bot
-### Disclaimer: This is a trading bot to demonstrate the power of combining TAlib with jupyter notebook in trading to come up with strategies. It's not intended as investment advice. I have not included the order thresholds. (FYI 21/12/20 to 03/01/21 this strategy was indeed profitable but use it as your own risk) 
+### Disclaimer: This is a trading bot to demonstrate the power of combining TAlib with jupyter notebook to come up with trading automation strategies. It's not intended as investment advice. I have not included the order thresholds. (FYI 21/12/20 to 03/01/21 this bot was indeed profitable but use it as your own risk) 
 
 Bitcoin trading bot built for binance exchange. The bot aims to trade between BTC(bitcoin) and a stable coin (USDT). The goal would be to sell BTC when its price is predicted to go down, and buy when BTC price is expected to go up.
 Using the trading indicators RSI and EMA5/13 average. The RSI thresholds are traditionally 70/30 for overbought and oversold. Instead of setting thresholds this project aims to use Jupyter notebooks to estimate the thresholds and provide a supplement for the candlestick patterns.
